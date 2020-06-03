@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 30px;
+  background-image: url(https://i.pinimg.com/originals/c4/53/5c/c4535c40c5fb932efc4eb9054e869386.jpg);
+  background-size: cover;
+}
+
+.container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+#box1 {
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 150px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#box1 h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+
+#box1 input[type="text"],
+#box1 input[type="email"],
+#box1 input[type="tel"],
+#box1 input[type="date"],
+#box1 button[type="submit"],
+#box1 input[type="password"] {
+  font-family:  'Poppins', sans-serif;
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#box1 input[type="text"]:hover,
+#box1 input[type="email"]:hover,
+#box1 input[type="tel"]:hover,
+#box1 input[type="date"]:hover,
+#box1 input[type=password]:hover {
+  transition: border-color 0.3s ease-in-out;
+  border: 1.5px solid rgba(87, 78, 78, 0.281);
+}
+
+#box1 button[type="submit"] {
+  width: 50%;
+  object-position: center;
+  border: 1.5px solid #777;
+  border-radius: 60%;
+  background: rgba(7, 48, 71, 0.808);
+  color: #FFF;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  font-size: 20px;
+}
+
+#box1 button[type="submit"]:hover {
+  background: rgba(29, 75, 143, 0.514);
+  transition: background-color 0.3s ease-in-out;
+}

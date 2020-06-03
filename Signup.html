@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="box1" action="Signin.htm" >
+          <h3>Sign Up</h3>          
+            <input placeholder="Name" type="text" required >
+            <input placeholder="Email" type="email" required>
+            <input placeholder="Phone Number" type="tel" required>
+            <input placeholder="dd-mm-yyyy" type="date" required>
+            <div>Gender: &nbsp
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+            </div>
+            <input placeholder="Password" type="password" required>
+                <button name="submit" type="submit" id="contact-submit" >Submit</button>
+        </form>
+    </div>
+</body>
+</html>
