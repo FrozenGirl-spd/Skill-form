@@ -1,3 +1,3 @@
 # Skill-form
-![Sign Up](../master/signup.png)
-![Sign In](../master/signin.png)
+![Sign Up](../master/signup.PNG)
+![Sign In](../master/signin.PNG)
